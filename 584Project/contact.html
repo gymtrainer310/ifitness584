@@ -1,0 +1,311 @@
+<!DOCTYPE html>
+<html>
+  
+    <head>
+        <title>My First Website</title>
+	
+	    <meta name="DONOVAN ROSAS" content="Donovan Rosas" />
+	    <meta name="FINAL PROJECT" content="final project" />
+
+        <!-------------------------- CSS always in HEAD ------------------->	
+	    <link rel="stylesheet" href="css.css" type="text/css" />
+     
+      
+	</head>
+  
+<body>
+        <!------------------- BODY DISPLAY TO VIEWR ----------------------->
+		<div id="page">
+		<div id="logo">
+			<h1><a href="/" id="logoLink"></a></h1>
+			<img src="http://www.ifitness584.com/dataimages/logoo.jpg" height="51" width="120" alt="description here" /> 
+	    	</div>
+		
+		
+          
+        <!----------------------- NAVIGATION ------------------------------>
+        <div id="nav">
+			<ul>
+				  <li><a href="http://www.ifitness584.com/">Home</a></li>
+              
+              <!----TEXT SPOT-TOP header: ABOUT ME will link to bottom/page2 ------>
+				  <li><a href="aboutme.html">About Me</a></li>
+                  		  <li><a href="schedule.html">Schedule</a></li>
+				  <li><a href="contact.html">Contact</a></li>
+				  <li><a href="shop.html">Shop</a></li>
+				  
+              <!---- <a href="#two">Click Me to Smooth Scroll to Section 2 Below</a>   was original ------>
+                 
+			</ul>	
+		</div>
+		
+         <!-------------------- MAIN CONTENT  H2 -------------------------->
+             
+               	<div id="content">
+	 	<h3>Contact me!</h3><br>
+
+	 	<p><img class="img-responsive" src="http://www.fitness484.com/dataimages/1.jpg" alt=""></p>
+
+            	<b><p align="center" >Ready to transform your life? Give me a call or drop me a line.
+            	</p></b>
+            	
+           
+            <!----------------TELLING ABOUT ME------------------------------------->
+            	<p align="center" >Get ready to transform your body.  With my world class service, I am committed
+            	to helping you acheive results. <br>Any fitness level, age or experience, you will always have an expert by your 
+            	side. </p> </b>
+       		<br> 
+      
+      
+      
+
+           
+ 
+           
+<!----------------FUNCTIONS CHECKED UNCHECKED------------------------------------->
+<p><b>LOOKING TO GET STARTED?</b><p>
+
+Choose: <input type="checkbox" id="myCheck">
+
+<button onclick="check()">Yes, I am.</button>
+<button onclick="uncheck()">Uncheck</button>
+
+<script>
+function check() {
+    document.getElementById("myCheck").checked = true;
+}
+
+function uncheck() {
+    document.getElementById("myCheck").checked = false;
+}
+</script>
+<!----------------FUNCTIONS CHECKED UNCHECKED------------------------------------->
+
+
+
+
+
+
+
+
+
+<h2>CONTACT ME</h2>
+<br>
+    
+<form id="contact_form" action="#" method="POST" enctype="multipart/form-data">
+
+ <!----------------NEW FORM------------------------------------>
+
+	      <div class="row">
+		  <label for="name">Your name:</label><br />
+		  <input id="name" class="input" name="name" type="text" value="" size="40" /><br />
+	      </div>
+	
+          <div class="row">
+		  <label for="email">Your email:</label><br />
+		  <input id="email" class="input" name="email" type="text" value="" size="40" /><br />
+	      </div>
+	
+          <div class="row">
+		  <label for="message">Your message:</label><br />
+		  <textarea id="message" class="input" name="message" rows="7" cols="40"></textarea><br />
+	      </div>
+
+<br>
+
+
+
+
+
+
+
+
+
+  <p>WHAT IS YOUR PREFERENCE?<p>
+ 
+ <!----------------PART 3 CONDITIONAL STATEMENTS AND LOOPS------------------------------------>
+<script>
+
+function getCheckboxValues(form) {
+  var values = [];
+  var vehicles = form.vehicle;
+
+  for (var i=0, iLen=vehicles.length; i<iLen; i++) {
+    if (vehicles[i].checked) {
+      values.push(vehicles[i].value);
+    }
+  }
+  // Do something with values
+  alert("Vehicles: " + values.join(', '));
+  return values;
+}
+
+</script>
+
+<form onsubmit="getCheckboxValues(this); return false;">
+  Weight Loss: <input type="checkbox" name="vehicle" value="weight loss"><br>
+  Energy: <input type="checkbox" name="vehicle" value="energy"><br>
+  Build Muscle: <input type="checkbox" name="vehicle" value="build muscle"><br>
+  
+</form>
+
+
+
+
+
+ <!----------------PART  4 CONDITIONAL STATEMENTS AND LOOPS------------------------------------>
+
+<script>
+
+function getCheckboxValues(form) {
+  var values = [];
+  var vehicles = form.vehicle;
+
+  for (var i=0, iLen=vehicles.length; i<iLen; i++) {
+    if (vehicles[i].checked) {
+      values.push(vehicles[i].value);
+    }
+  }
+  // Do something with values
+  alert("Vehicles: " + values.join(', '));
+  return values;
+}
+
+</script>
+
+<form onsubmit="getCheckboxValues(this); return false;">
+  Beginner: <input type="checkbox" name="vehicle" value="Bike"/><br>
+  Intermediate: <input type="checkbox" name="vehicle" value="Car"/><br>
+  Advanced: <input type="checkbox" name="vehicle" value="Airplane"/><br>
+  
+</form>
+
+<br>
+<br>
+
+
+
+
+
+
+
+
+
+
+
+<!--------------------FOR FUTURE USE- 
+    <p>WHAT IS YOUR PREFERRED DAY?<p>
+<input type="radio" name="level" value="Weight Loss" />WeightLoss
+<input type="radio" name="level" value="Energy" />Energy
+<input type="radio" name="level" value="Build Muscle" />Build Muscle
+<input type="radio" name="level" value="Tone Up" />Tone Up
+<input type="radio" name="level" value="Flexibility" /> Flexibility
+<input type="radio" name="level" value="Other" />Other
+<br /><br />------------>
+
+
+<!---------------------OPTIONAL FUTURE USE 
+  <p>WHAT IS YOUR CURRENT LEVEL?<p>
+<input type="radio" name="level" value="Beginner" />I am just beginning.
+<input type="radio" name="level" value="Intermediate" />Ready to go to the next level.
+<input type="radio" name="level" value="Advanced" />Look at me, I should train you.
+<br /><br />------------>
+
+
+
+
+
+	<h3>Week Calendar</h3>
+	
+	
+ 
+ <!-------------------- PRINT SCHEDULE IF STATEMENT -------------------------->
+ <SCRIPT LANGUAGE="JavaScript"> 
+if (window.print) {
+document.write('<form><input type=button name=print value="Print schedule" onClick="window.print()"></form>');
+}
+</script>
+ 
+ 
+ 
+					<table class="table">
+						<thead>
+							<tr>
+								<th></th>
+								<th>Monday</th>
+								<th>Tuesdaye</th>
+								<th>Wednesday</th>
+                              					<th>Thursday</th>
+								<th>Friday</th>
+								<th>Saturday</th>
+							</tr>
+						</thead>
+						<tbody>
+							<tr>
+						<th scope="row">1</th>
+						<td><div class="radio"><label><input type="radio" id='button1' >OPEN</label></td>
+						<td><div class="radio"><label><input type="radio" id='button2' >BOOKED</label></td></td>
+						<td><div class="radio"><label><input type="radio" id='button3' >BOOKED</label></td></td>
+                                		<td><div class="radio"><label><input type="radio" id='button2' >BOOKED</label></td></td>
+						<td><div class="radio"><label><input type="radio" id='button3' >OPEN</label></td></td>
+                                		<td><div class="radio"><label><input type="radio" id='button3' >OPEN</label></td></td>
+							</tr>
+							
+							<tr>
+						<th scope="row">2</th>
+						<td><div class="radio"><label><input type="radio" id='button4' >BOOKED</label></td></td>
+						<td><div class="radio"><label><input type="radio" id='button5' >BOOKED</label></td></td>
+						<td><div class="radio"><label><input type="radio" id='button6' >BOOKED</label></td></td>
+                                		<td><div class="radio"><label><input type="radio" id='button2' >OPEN</label></td></td>
+						<td><div class="radio"><label><input type="radio" id='button3' >OUT</label></td></td>
+                                		<td><div class="radio"><label><input type="radio" id='button3' >OUT</label></td></td>
+							</tr>
+							
+							
+							<tr>
+						<th scope="row">3</th>
+						<td><div class="radio"><label><input type="radio" id='button7' >BOOKED</label></td></td>
+						<td><div class="radio"><label><input type="radio" id='button8' >OPEN</label></td></td>
+						<td><div class="radio"><label><input type="radio" id='button9' >BOOKED</label></td></td>
+                                		<td><div class="radio"><label><input type="radio" id='button2' >OUT</label></td></td>
+						<td><div class="radio"><label><input type="radio" id='button3' >BOOKED</label></td></td>
+                                		<td><div class="radio"><label><input type="radio" id='button3' >OUT</label></td></td>
+                                
+  </td>
+							</tr>
+						</tbody>
+					</table>
+
+
+	
+
+
+
+<script type="text/javascript" src="https://form.jotform.com/63470837574162"></script>
+
+<script type="text/javascript" src="https://form.jotform.com/jsform/63470837574162"></script>
+
+<br><br><br>
+
+
+
+
+<br><br>
+  <!--------------------- ICONS --------------------------->
+         <br><HR>
+           <h2>SOCIAL</h2>
+           <a href="http://www.youtube.com">
+           	<img src="http://www.fitness484.com/dataimages/icon99.jpg" height="35" width="35" alt="description here" />
+           <a href="http://www.instagram.com">
+           	<img src="http://www.fitness484.com/dataimages/icon101.jpg" height="35" width="35" alt="description here" />
+           <a href="http://www.twitter.com">
+           	<img src="http://www.fitness484.com/dataimages/icon102.jpg" height="35" width="35" alt="description here" />
+           <!--------------------- ICONS --------------------------->
+
+     </div>
+     <div>
+     </div>
+						
+<!--------------------- FOOTER --------------------------->							
+</body>
+</html>

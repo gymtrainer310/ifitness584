@@ -1,0 +1,714 @@
+<!DOCTYPE html>
+<html>
+  
+    <head>
+        <title>My First Website</title>
+	
+	    <meta name="DONOVAN ROSAS" content="Donovan Rosas" />
+	    <meta name="FINAL PROJECT" content="final project" />
+
+        <!-------------------------- CSS always in HEAD ------------------->	
+	    <link rel="stylesheet" href="style.css" type="text/css" />
+      
+      
+      
+      
+      
+      
+ 
+      
+    
+      
+      
+      
+      
+      <!-------------------------- SMOOTH SCROLLING javascript------------------->	
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+<script>
+$(document).ready(function(){
+  // Add smooth scrolling to all links
+  $("a").on('click', function(event) {
+
+    // Make sure this.hash has a value before overriding default behavior
+    if (this.hash !== "") {
+      // Prevent default anchor click behavior
+      event.preventDefault();
+
+      // Store hash
+      var hash = this.hash;
+
+      // Using jQuery's animate() method to add smooth page scroll
+      // The optional number (800) specifies the number of milliseconds it takes to scroll to the specified area
+      $('html, body').animate({
+        scrollTop: $(hash).offset().top
+      }, 800, function(){
+   
+        // Add hash (#) to URL when done scrolling (default click behavior)
+        window.location.hash = hash;
+      });
+    } // End if
+  });
+});
+</script>
+      <!-------------------------- SMOOTH SCROLLING ------------------->	
+      
+      
+      
+      
+      
+      
+	</head>
+  
+<body>
+  
+        <!------------------- BODY DISPLAY TO VIEWR ----------------------->
+	    <div id="page">
+		<div id="logo">
+			<h1><a href="/" id="logoLink">My First Website NOVE 29TH 9PM</a></h1>
+          
+		</div>
+		
+          
+        <!----------------------- NAVIGATION ------------------------------>
+        <div id="nav">
+			<ul>
+				  <li><a href="#/home.html">Home</a></li>
+              
+              <!----TEXT SPOT-TOP header: ABOUT ME will link to bottom/page2 ------>
+				  <li><a href="#two">About Me</a></li>
+                  <li><a href="#three">Schedule</a></li>
+				  <li><a href="#four">Contact</a></li>
+              <!---- <a href="#two">Click Me to Smooth Scroll to Section 2 Below</a>   was original ------>
+                 
+			</ul>	
+		</div>
+		
+         <!-------------------- MAIN CONTENT  H2 -------------------------->
+         <div id="content">
+			<h2>Home</h2>
+           
+           
+           
+         
+           
+           
+           
+       
+           
+           
+           <!-------------------- smooth anchor TEST-------------------------->
+           <br>
+           
+
+           
+        
+           
+           <br><br><br>
+           <!-------------------- smooth ancho TEST -------------------------->
+           
+           
+           
+           
+           
+           
+           
+                	<!-- BEAUTIFUL IMAGE  H3 -->
+					<h3>Responsive images</h3>
+					<p>For images to be responsive 
+                     so that they will rescale to suit the width of the
+                     parent, use the <code>.img-responsive</code> class. IN css code</p>
+					<p><img class="img-responsive" src="http://placehold.it/800x350" alt=""></p>
+
+		
+            <p>This is my first webpage! I was able to code all the HTML and 
+              CSS in order to make it. Watch out world of web design here I come!</p>
+           
+            <!----------------TELLING ABOUT ME------------------------------------->
+            <p>I can use my skills here to create websites for my business, 
+              my friends and family, my C.V, blog or articles. As well as any 
+              games or more experiment stuff (which is what the web is really all 
+              about). </p>
+           
+           
+           
+           
+           
+<h2>CLIENT REVIEW ABOVE PAGE</h2>
+          
+           
+           
+           
+<table width="1000" cellpadding="15" cellspacing="0" align="center">
+     <tr>
+      
+        <td width="250">
+          
+        <h2><img src="https://cdn4.iconfinder.com/data/icons/kids-2/128/kids_bib-128.png" height="50" width="50" alt="description here" />FITNESS</h2>
+        <p>Train with me in my amazing downtown Vancouver Personal Trainer only gym or download my step-by-step workout programs 
+          in my Coaching Program to do on your own. Either way you’ll get in the best shape of your life!</p>
+        </td>
+    
+        
+        <td width="250">
+        <h2><img src="https://cdn4.iconfinder.com/data/icons/kids-2/128/kids_bib-128.png" height="50" width="50" alt="description here" />NUTRITION</h2>
+        <p>Are you tired of stressing out about food and all the conflicting information out there? If so you need my 
+          simple, healthy and very effective plan tailored to your specific metabolism and lifestyle. A plan that gets results!</p>
+        </td>
+        
+        
+        
+        <td width="250">
+        <h2><img src="https://cdn4.iconfinder.com/data/icons/kids-2/128/kids_bib-128.png" height="50" width="50" alt="description here" />MOBILITY</h2>
+        <p>During each session my clients are taken through a series of stretching techniques to realign their tissues, help 
+          them recover from their workouts faster, relieve stress and gain much needed flexibility.</p>
+        </td>
+       
+        
+    
+       
+      </tr>
+</table>
+  <!--------------------- COMMENTS END --------------------------->
+
+                  
+<br>
+<br>
+        <hr><!----------FIRST LINE------------>
+<br>
+<br>
+
+
+           
+           
+           
+           
+           
+           <!---------------MAIN BULLET POINTS----------------------------->
+   <div class="container">
+     
+     
+     <center><h2>INTRODUCING MY NEW PROGRAM</h2></center>
+     <center><b>If you can’t train with me in person, no worries I’ve got just the thing for you!</b><br>
+My Coaching Program The New You Program is an amazing nutrition plan, fitness program and support system, designed to get you fit and healthy!<br>
+You’ll receive weekly meal plans, delicious recipes and challenging workouts that will help you attain a level of health and fitness you never imagined was possible.</center>
+     
+   
+          <ul>
+            <li>Ut in integer pulvinar maiores, mi sapien litora nunc ut, 
+              neque netus in ac. Et nullam, donec sapien laoreet, ullamcorper 
+              vestibulum et sed at arcu, erat scelerisque vehicula justo 
+              nam malesuada vehicula, per nibh nibh elit justo.</li>
+          </ul>
+   </div>
+
+   <div class="slide">
+          <ul>
+          <li>Lorem ipsum dolor sit amet, et hymenaeos elit orci, rutrum dolor magna 
+            pellentesque ante euismod magna, sodales turpis quos class condimentum. 
+            Integer in vel etiam. Etiam pellentesque nibh phasellus sed, eget ipsum 
+            enim sed in et at, non ligula  quis egestas sed quis. Lectus vitae, 
+            lobortis vestibulum maecenas auctor lorem eros, luctus vitae aliquam 
+            aliquam ipsum ligula nascetur, habitasse eu lectus imperdiet leo. Ut est 
+            fusce class conubia nunc felis, proin aliquam vitae nunc accumsan
+            orci. A eu erat in.</li><br>
+            
+          <li>Ut in integer pulvinar maiores, mi sapien litora nunc ut, neque netus 
+            in ac. Et nullam, donec sapien laoreet, ullamcorper vestibulum et sed at 
+            arcu, erat scelerisque vehicula justo nam malesuada vehicula, per nibh 
+            nibh elit justo. Tempus omnis, mattis taciti cras a.</li>
+          </ul>
+    </div>
+
+    <div class="slide">
+        <ul>
+        <li>Ut in integer pulvinar maiores, mi sapien litora nunc ut, neque netus in ac. 
+          Et nullam, donec sapien laoreet, ullamcorper vestibulum et sed at arcu, erat 
+          scelerisque vehicula justo nam malesuada vehicula, per nibh nibh elit justo. 
+          Tempus omnis, mattis taciti cras a.</li>
+        </ul>
+    </div>
+           
+        <br>     <br>   <br> 
+           
+           <table width="1000" cellpadding="15" cellspacing="0" align="center">
+     <tr>
+      
+        <td width="250">
+          
+        <h2><img src="https://cdn4.iconfinder.com/data/icons/kids-2/128/kids_bib-128.png" height="50" width="50" alt="description here" />WORKOUT PROGRAMS</h2>
+        <p>Learn the most effective ways to lose body fat, get stronger and gain more energy than ever 
+          before. With step-by-step workout routines you can do anywhere, even if you’re limited in time, space or equipment</p>
+        </td>
+    
+        
+        <td width="250">
+        <h2><img src="https://cdn4.iconfinder.com/data/icons/kids-2/128/kids_bib-128.png" height="50" width="50" alt="description here" />MEAL PLANS</h2>
+        <p>Learn a new way of eating that will change the way you feel about food. No calorie counting, starving 
+          yourself or eating boring tasteless meals. The New You Program is a healthy, tasty, balanced nutrition plan that works!</p>
+        </td>
+        
+        
+        
+        <td width="250">
+        <h2><img src="https://cdn4.iconfinder.com/data/icons/kids-2/128/kids_bib-128.png" height="50" width="50" alt="description here" />SUPPORT</h2>
+        <p>My Coaching Program is unique in the way that I have an amazing members only website where you can ask 
+          me questions at anytime as well as get new workouts and delicious recipes each week!</p>
+        </td>
+       
+        
+    
+       
+      </tr>
+</table>
+           
+           
+           
+           
+           
+           
+           
+           <br><br><HR>
+           <br><br>
+           
+           
+           
+           
+           
+           <!----------------------------- PAGE 2 ACCORDION ------------------------------>
+           
+           
+<!----------------SLOW SCROLL TO HERE------------------------------------->
+<h2 id="two"></h2>
+<!----------------SLOW SCROLL TO HERE------------------------------------->
+      <h2>ABOUT ME</h2>
+           <br>
+           
+           
+     <!----------------IMAGE WITH TEXT NEXT TO IT------------------------------------->      
+
+           
+           
+           
+           
+           
+           
+           
+           
+           
+           
+           
+           
+           
+           
+           <!----------------IMAGE WITH TEXT ON SIDE------------------------------------->
+           <div style="display:inline-block;vertical-align:top;">
+             
+       
+    <img src="" alt="img"/>
+</div>
+<div style="display:inline-block;">
+    <div>Email</div>
+    <div>Gender</div>
+    <div>Phoner</div>
+</div>
+           
+         <br><br>
+           
+           
+           
+           
+           
+           
+           <!----------------ACCORDION------------------------------------>
+           <h2>Accordion</h2>
+
+      <button class="accordion">MY EDUCATION</button>
+          <div class="panel">
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod 
+            tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, 
+            quis nostrud exercitation nisi ut aliquip ex ea commodo consequat.</p>
+          </div>
+
+      <button class="accordion">MY GOALS</button>
+          <div class="panel">
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod 
+             tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim 
+             veniam, quis  laboris nisi ut aliquip ex ea commodo consequat.</p>
+          </div>
+
+      <button class="accordion">MY MOTIVATION</button>
+           <div class="panel">
+           <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod 
+             tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, 
+             quis nostrud exercitation ullamco labot aliquip ex ea commodo consequat.</p>
+          </div>
+           <br><br><br><br><br><br><br>
+           <HR><br><br><br><br><br>
+           
+           
+           
+     
+             
+             
+             
+           
+            <!-----------------------------end PAGE 2 ACCORDION ---------------------------->
+           
+           
+            <!----------------------------- PAGE 3 BEGIN ACCORDION ------------------------->
+           
+           
+           <!--------------TABLE 
+                                <tr> : table row 
+                                <th> : table header 
+                                <td> : table cell---------------->
+   
+             
+             
+             
+             
+             
+             
+<!----------------SLOW SCROLL TO HERE------------------------------------->
+<h2 id="three"></h2>
+<!----------------SLOW SCROLL TO HERE------------------------------------->
+<h2>SCHEDULE</h2>
+
+  
+    <table width="80%" align="center" >
+    <div id="head_nav">
+      
+    <tr>
+        <th>Time</th>
+        <th>Monday</th>
+        <th>Tuesday</th>
+        <th>Wednesday</th>
+        <th>Thrusday</th>
+        <th>Friday</th>
+        <th>Saturday</th>
+    </tr> 
+    </div>
+
+    <tr>
+        <th>10:00 - 11:00</th>
+        
+            <td>Physics-1</td>
+            <td>English</td>
+            <td title="No Class" class="Holiday"></td>
+            <td>Chemestry-1</td>
+            <td>Alzebra</td>
+            <td>Physical</td>
+    </tr> 
+    </div>
+   
+
+    <tr>
+        <th>11:00 - 12:00</td>
+   
+            <td>Math-2</td>
+            <td>Chemestry-2</td>
+            <td><font color="orange">Lunch</td>
+            <td>Hindi</td>
+            <td>English</td>
+            <td>Soft Skill</td>
+        </div>
+    </tr>
+
+    <tr>
+        <th>12:00 - 01:00</td>
+        
+            <td>Hindi</td>
+            <td>English</td>
+            <td>Math-1</td>
+            <td>Chemistry</td>
+            <td>Physics</td>
+            <td>Chem.Lab</td>
+        </div>
+    </tr>
+
+    <tr>
+        <th>01:00 - 02:00</td>
+        
+            <td>Cumm. Skill</td>
+            <td>Sports</td>
+            <td>English</td>
+            <td>Computer Lab</td>
+            <td>Header</td>
+            <td><font color="orange">Booked</td>
+        </div>
+    </tr>
+
+    <tr>
+        <th>02:00 - 03:00</td>
+        
+            <td><font color="orange">Booked</td>
+            <td>Header</td>
+            <td>Header</td>
+            <td>Header</td>
+            <td>Header</td>
+            <td>Header</td>
+        </div>
+    </tr>
+
+</table> <br><br><br>
+  <hr>
+      <br><br><br><br>
+<!----------------------------- END SCHEDULE ------------------------------>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        <!--------------------- COMMENTS BEGIN --------------------------->
+
+
+<h2>CLIENT REVIEW ABOVE PAGE</h2>
+<table width="1000" cellpadding="15" cellspacing="0" align="center">
+     <tr>
+      
+        <td width="250">
+          
+        <h2><img src="https://cdn4.iconfinder.com/data/icons/kids-2/128/kids_bib-128.png" height="50" width="50" alt="description here" />Column 1</h2>
+        <p>A programmer heads out to the store. His wife says "while 
+           you're out, get some milk." ...He never came home.</p>
+        </td>
+    
+        
+        <td width="250">
+        <h2><img src="https://cdn4.iconfinder.com/data/icons/kids-2/128/kids_bib-128.png" height="50" width="50" alt="description here" />Column 2</h2>
+        <p>An SEO expert walks into a bar, pub, liquor store, brewery, 
+           alcohol, beer, whiskey, vodka</p>
+        </td>
+        
+        
+        
+        <td width="250">
+        <h2><img src="https://cdn4.iconfinder.com/data/icons/kids-2/128/kids_bib-128.png" height="50" width="50" alt="description here" />Column 3</h2>
+        <p>An SEO expert walks into a bar, pub, liquor store, brewery, 
+           alcohol, beer, whiskey, vodka</p>
+        </td>
+       
+        
+        <td width="250">
+       <h2><img src="https://cdn4.iconfinder.com/data/icons/kids-2/128/kids_bib-128.png" height="50" width="50" alt="description here" />Column 4</h2>
+        <p>An SEO expert walks into a bar, pub, liquor store, brewery, 
+           alcohol, beer, whiskey, vodka</p>
+        </td>
+       
+      </tr>
+</table>
+  <!--------------------- COMMENTS END --------------------------->
+
+                  
+<br>
+<br>
+        <hr><!----------FIRST LINE------------>
+<br>
+<br>
+
+
+
+
+
+
+<!----------------------------- CONTACT ME BEGIN ------------------------------>
+      
+
+
+
+
+
+
+<!----------------SLOW SCROLL TO HERE------------------------------------->
+<h2 id="four"></h2>
+<!----------------SLOW SCROLL TO HERE------------------------------------->
+<h2>CONTACT ME</h2>
+
+           
+
+
+      
+<form id="contact_form" action="#" method="POST" enctype="multipart/form-data">
+	      <div class="row">
+		  <label for="name">Your name:</label><br />
+		  <input id="name" class="input" name="name" type="text" value="" size="30" /><br />
+	      </div>
+	
+          <div class="row">
+		  <label for="email">Your email:</label><br />
+		  <input id="email" class="input" name="email" type="text" value="" size="30" /><br />
+	      </div>
+	
+          <div class="row">
+		  <label for="message">Your message:</label><br />
+		  <textarea id="message" class="input" name="message" rows="7" cols="30"></textarea><br />
+	      </div>
+        
+	      <input id="submit_button" type="submit" value="Send email" />
+
+
+<br>
+<br>
+<br>
+<br>
+
+  
+  <p>WHAT ARE YOU INTERESTED IN:</p>
+<input type="radio"  />Weight Loss<br />
+<input type="radio"  />Energy<br />
+<input type="radio"  />Build Muscle<br />
+<input type="radio"  />Tone Up<br />
+ <input type="radio"  />Other<br /><br />
+
+  <p>WHAT IS YOUR CURRENT LEVEL?<p>
+<input type="radio" name="level" value="Beginner" />Beginner
+<input type="radio" name="level" value="Intermediate" /> Intermediate
+<input type="radio" name="level" value="Advanced" />Advanced<br /><br />
+
+  
+  <p>WHAT IS YOUR PREFERRED DAY?<p>
+<input type="radio" name="level" value="Beginner" />Monday
+<input type="radio" name="level" value="Intermediate" /> Tuesday
+<input type="radio" name="level" value="Advanced" />Wednesday
+<input type="radio" name="level" value="Beginner" />Thursday
+<input type="radio" name="level" value="Intermediate" /> Friday
+  <input type="radio" name="level" value="Intermediate" /> Saturday
+<input type="radio" name="level" value="Advanced" />Sunday<br /><br />
+
+
+<input type="submit" value="SUBMIT" /></span><br />
+<br>
+..............................
+
+
+	<h3>Tables</h3>
+				
+					<table class="table">
+						<thead>
+							<tr>
+								<th>#</th>
+								<th>Monday</th>
+								<th>Tuesdaye</th>
+								<th>Wednesday</th>
+                              <th>Thursday</th>
+								<th>Friday</th>
+								<th>Saturday</th>
+							</tr>
+						</thead>
+						<tbody>
+							<tr>
+								<th scope="row">1</th>
+								<td><div class="radio"><label><input type="radio" id='button1' >TIKI</label></td>
+								<td><div class="radio"><label><input type="radio" id='button2' >TIKI</label></td></td>
+								<td><div class="radio"><label><input type="radio" id='button3' >TIKI</label></td></td>
+                                <td><div class="radio"><label><input type="radio" id='button2' >TIKI</label></td></td>
+								<td><div class="radio"><label><input type="radio" id='button3' >TIKI</label></td></td>
+                                <td><div class="radio"><label><input type="radio" id='button3' >TIKI</label></td></td>
+							</tr>
+							<tr>
+								<th scope="row">2</th>
+								<td><div class="radio"><label><input type="radio" id='button4' >TIKI</label></td></td>
+								<td><div class="radio"><label><input type="radio" id='button5' >TIKI</label></td></td>
+								<td><div class="radio"><label><input type="radio" id='button6' >TIKI</label></td></td>
+                                <td><div class="radio"><label><input type="radio" id='button2' >TIKI</label></td></td>
+								<td><div class="radio"><label><input type="radio" id='button3' >TIKI</label></td></td>
+                                <td><div class="radio"><label><input type="radio" id='button3' >TIKI</label></td></td>
+							</tr>
+							<tr>
+								<th scope="row">3</th>
+								<td><div class="radio"><label><input type="radio" id='button7' >TIKI</label></td></td>
+								<td><div class="radio"><label><input type="radio" id='button8' >TIKI</label></td></td>
+								<td><div class="radio"><label><input type="radio" id='button9' >TIKI</label></td></td>
+                                <td><div class="radio"><label><input type="radio" id='button2' >TIKI</label></td></td>
+								<td><div class="radio"><label><input type="radio" id='button3' >TIKI</label></td></td>
+                                <td><div class="radio"><label><input type="radio" id='button3' >TIKI</label></td></td>
+                                
+  </td>
+							</tr>
+						</tbody>
+					</table>
+
+				</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+..........................
+
+.<!----------------------------- CONTACT ME END ------------------------------>
+</div><!--end of form-->
+..
+</form>
+...
+</div><!--end of form-->
+
+
+
+
+</div><!------------------BELOW BOTTOM AFTER THIS--------------------->
+
+</div>
+
+<table width="600" cellpadding="0" cellspacing="0" align="center">
+      <tr>
+        <td width="290">
+              <h2>Column 1</h2>
+              <p>A programmer heads out to the store. His wife says "while 
+               you're out, get some milk." ...He never came home.</p>
+         </td>
+    
+       <td width="20">&nbsp;</td>
+       <td width="290">
+         
+              <h2>Column 2</h2>
+              <p>An SEO expert walks into a bar, pub, liquor store, brewery, 
+              <a href=" "></a>lcohol, beer, whiskey, vodka</p>
+        </td>
+      </tr>
+</table>
+</div>
+
+
+
+
+<!----------------------------- FOOTER AREA ------------------------------>
+ 
+          
+          <!-- FOOTER -->
+		  <div id="footer">
+			<p>Created by <a href="/" target="_blank">[Donovan Rosas]</a></p>
+		  </div>
+	
+        </div>
+    </body>
+</html>
+  

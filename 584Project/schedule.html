@@ -1,0 +1,302 @@
+<!DOCTYPE html>
+<html>
+  
+    <head>
+        <title>My First Website</title>
+	
+	    <meta name="DONOVAN ROSAS" content="Donovan Rosas" />
+	    <meta name="FINAL PROJECT" content="final project" />
+
+        <!-------------------------- CSS always in HEAD ------------------->	
+	    <link rel="stylesheet" href="css.css" type="text/css" />
+      	
+    
+      
+	</head>
+  
+<body>
+  
+        <!------------------- BODY DISPLAY TO VIEWR ----------------------->
+		<div id="page">
+		<div id="logo">
+			<h1><a href="/" id="logoLink"></a></h1>
+			<img src="http://www.ifitness584.com/dataimages/logoo.jpg" height="51" width="120" alt="description here" />  
+          
+	    	</div>
+		
+		
+          
+        <!----------------------- NAVIGATION ------------------------------>
+        <div id="nav">
+			<ul>
+			  <li><a href="http://www.ifitness584.com/">Home</a></li>
+              
+              <!----TEXT SPOT-TOP header: ABOUT ME will link to bottom/page2 ------>
+				  <li><a href="aboutme.html">About Me</a></li>
+                  		  <li><a href="schedule.html">Schedule</a></li>
+				  <li><a href="contact.html">Contact</a></li>
+				   <li><a href="shop.html">Shop</a></li>
+              <!---- <a href="#two">Click Me to Smooth Scroll to Section 2 Below</a>   was original ------>
+                 
+			</ul>	
+		</div>
+		
+         <!-------------------- MAIN CONTENT  H2 -------------------------->
+    
+      
+         <div id="content">
+	 <h3>Schedule: Anywhere. Anytime.</h3><br>
+	
+	 <p><img class="img-responsive" src="http://www.fitness484.com/dataimages/3.jpg" alt=""></p>
+
+		
+		<br>
+		
+		
+		<ul>
+  <li>With a flexible schedule to meet your individual needs, I am always here for you.</li>
+  <li>Check out my schedule and find a perfect time for you.</li>
+  <li>Most of all, find an activity that you will enjoy!</li>
+</ul>
+
+    <br>  
+      
+ 
+ 
+           
+            
+             
+<!----------------SLOW SCROLL TO HERE------------------------------------->
+<h2 id="three"></h2>
+<br>
+<!----------------SLOW SCROLL TO HERE------------------------------------->
+<h2>SCHEDULE</h2><br>
+
+
+
+
+ <!-------------------- PRINT SCHEDULE IF STATEMENT -------------------------->
+ <SCRIPT LANGUAGE="JavaScript"> 
+if (window.print) {
+document.write('<form><input type=button name=print value="Print schedule" onClick="window.print()"></form>');
+}
+</script>
+ 
+
+
+
+
+
+
+  
+    <table width="80%" align="center" >
+    <div id="head_nav">
+      
+    <tr>
+        <th>Time</th>
+        <th>Monday</th>
+        <th>Tuesday</th>
+        <th>Wednesday</th>
+        <th>Thrusday</th>
+        <th>Friday</th>
+        <th>Saturday</th>
+    </tr> 
+    </div>
+
+    <tr>
+        <th>10:00 - 11:00</th>
+        
+            <td><font color="orange">Booked</td>
+            <td>Weights</td>
+            <td title="No Class" class="Holiday">Karate</td>
+            <td>Swimming</td>
+            <td>Yoga</td>
+            <td>Karate</td>
+    </tr> 
+    </div>
+   
+
+    <tr>
+        <th>11:00 - 12:00</td>
+   
+            <td>Cardio</td>
+            <td>-</td>
+            <td><font color="orange">Booked</td>
+            <td>Tai Chi</td>
+            <td>Boxing</td>
+            <td>Weight Lifting</td>
+        </div>
+    </tr>
+
+    <tr>
+        <th>12:00 - 01:00</td>
+        
+            <td>Light Cardio</td>
+            <td>Yoga</td>
+            <td>Power Cardio</td>
+            <td>-</td>
+            <td>KickBoxing</td>
+            <td>Rest</td>
+        </div>
+    </tr>
+
+    <tr>
+        <th>01:00 - 02:00</td>
+        
+            <td>Cooking</td>
+            <td>Running</td>
+            <td>Yoga</td>
+            <td>Weights</td>
+            <td>Abs</td>
+            <td><font color="orange">Booked</td>
+        </div>
+    </tr>
+
+    <tr>
+        <th>02:00 - 03:00</td>
+        
+            <td><font color="orange">Booked</td>
+            <td>-</td>
+            <td>Cardio</td>
+            <td>Tai Chi</td>
+            <td>Weights</td>
+            <td>Abs</td>
+        </div>
+    </tr>
+
+</table> <br>
+<!----------------------------- END SCHEDULE ------------------------------>
+
+
+
+
+
+
+
+<!----------------------------- FUNCTION ABOUT CHOICES ------------------------------>
+<p>WHICH CLASS INTERESTS YOU?</p>
+
+<form action="form_action.asp">
+<input type="checkbox" name="coffee" value="weight">Weights<br>
+<input type="checkbox" name="coffee" value="cardio">Cardio<br>
+<input type="checkbox" name="coffee" value="other">Other<br>
+<br>
+<input type="button" onclick="myFunction()" value="Click me.">
+<br><br>
+<input type="text" id="order" size="100">
+<input type="submit" value="">
+</form>
+
+<script>
+function myFunction() {
+    var coffee = document.forms[0];
+    var txt = "";
+    var i;
+    for (i = 0; i < coffee.length; i++) {
+        if (coffee[i].checked) {
+            txt = txt + coffee[i].value + " ";
+        }
+    }
+    document.getElementById("order").value = "Great! That is my specialty.  Please proceed to my CONTACT page for a free consultation." + txt;
+}
+</script>
+<!----------------------------- END SCHEDULE ------------------------------>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <br><br>
+  <hr>
+  <br><br>
+<!----------------------------- END SCHEDULE ------------------------------>
+
+
+
+        <!--------------------- COMMENTS BEGIN --------------------------->
+
+<h2>CLIENT REVIEWS</h2><br>
+<table width="1000" cellpadding="15" cellspacing="0" align="center">
+     <tr>
+      
+        <td width="250">
+          
+        <h2><img src="http://www.fitness484.com/dataimages/icon7.jpg" height="37" width="50"  alt="description here" />Vanessa M.</h2>
+        <p>"Don gets me fired up to go to the gym.  Enjoying my new found bod with the attitude to rock it!"</p>
+        </td>
+    
+        
+        <td width="250">
+        <h2><img src="http://www.fitness484.com/dataimages/icon8.jpg" height="37" width="50"  alt="description here" />Jose J.</h2>
+        <p>"Mil gracias por ayudarme a transformar mi vida. ¡Nuevas metas, nuevas ideas, y un amigo de por vida!"</p>
+        </td>
+        
+        
+        
+        <td width="250">
+        <h2><img src="http://www.fitness484.com/dataimages/icon9.jpg" height="37" width="50"  alt="description here" />Brad S.</h2>
+        <p>"Greatful to meet a caring trainer who pushes you past your limits.  Thank you for changing my life!"</p>
+        </td>
+       
+        
+        <td width="250">
+       <h2><img src="http://www.fitness484.com/dataimages/icon10.jpg" height="37" width="50"  alt="description here" />Selena P.</h2>
+        <p>"Can't wait to go for another fun filled hike.  Great trainer, awesome vibe, amazing results!"</p>
+        </td>
+       
+      </tr>
+</table>
+  <!--------------------- COMMENTS END --------------------------->
+
+                  
+<br>
+<br>
+
+ 
+           <!--------------------- ICONS --------------------------->
+           <br><br><HR>
+           <h2>SOCIAL</h2>
+           <a href="http://www.youtube.com">
+           	<img src="http://www.fitness484.com/dataimages/icon99.jpg" height="35" width="35" alt="description here" />
+           <a href="http://www.instagram.com">
+           	<img src="http://www.fitness484.com/dataimages/icon101.jpg" height="35" width="35" alt="description here" />
+           <a href="http://www.twitter.com">
+           	<img src="http://www.fitness484.com/dataimages/icon102.jpg" height="35" width="35" alt="description here" />
+          
+
+
+
+
+<!----------------------------- CONTACT ME BEGIN ------------------------------>
+  
+						</tbody>
+					</table>
+
+				</div>
+
+
+.<!----------------------------- CONTACT ME END ------------------------------>
+</div><!--end of form-->
+
+
+
+
+<!----------------------------- FOOTER AREA ------------------------------>
+
+		  <div id="footer">
+			<p>Created by <a href="/" target="_blank">[Donovan Rosas]</a></p>
+		  </div>
+	
+        </div>
+    </body>
+</html>
+  
+               
